@@ -1,0 +1,66 @@
+.body{
+    padding-top: 100px;
+    padding-left: 150px;
+        place-items: center;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.body .img-body{
+    background: url("src/assets/img/pngwing5.png");
+    width: 1253px;
+    height: 556px;
+    margin-left: 100px;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+.body .rectangul-1{
+    position: absolute;
+    width: 894px;
+    height: 150px;
+    left: -131px;
+    top: 791.69px;
+    background: #F1CD3A;
+    transform: rotate(-15deg);
+    z-index: 1;
+}
+.body .rectangul-2{
+    position: absolute;
+    width: 844px;
+    height: 150px;
+    left: 848px;
+    top: 494.69px;
+
+    background: #F1CD3A;
+    transform: rotate(-21deg);
+    z-index: 1;
+}
+.body .rectangul-3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1395px;
+    top: 605px;
+
+    transform: rotate(-180deg);
+    background-image: url("src/assets/img/Group2.png");
+}
+.body .rectangul-4{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 45px;
+    top: 605px;
+
+    background-image: url("src/assets/img/Group2.png");
+}
+.body .nav{
+    background-image: url("../img/Nav.png");
+    position: absolute;
+    width: 843.07px;
+    height: 80.31px;
+    left: 359.93px;
+    top: 994px;
+
+}

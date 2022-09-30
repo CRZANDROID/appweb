@@ -1,0 +1,81 @@
+
+.BodyMore{
+    background-color: black;
+    height: 1024px;
+}
+.BodyMore .tabla{
+    background-image: url("../../img/tabla.png");
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 50px;
+    top: 1118px;
+
+}
+.BodyMore .img-more{
+    background-image: url("../../img/pngegg3.png");
+    position: absolute;
+    width: 693px;
+    height: 589px;
+    left: 757px;
+    top: 1454px;
+    filter: drop-shadow(0px 14px 4px rgba(0, 0, 0, 0.91));
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.BodyMore .rectangul-more{
+    position: absolute;
+    width: 263px;
+    height: 560px;
+    left: 957px;
+    top: 1365px;
+
+    background: #F1CD3A;
+}
+.BodyMore .separador-texto{
+    position: absolute;
+    width: 717px;
+    height: 56px;
+    left: 419px;
+    top: 1277px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.BodyMore .title-more{
+    position: absolute;
+    width: 943px;
+    height: 146px;
+    left: 5px;
+    top: 1440px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 146px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.BodyMore .texto-more{
+    position: absolute;
+    width: 543px;
+    height: 147px;
+    left: 35px;
+    top: 1615px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}

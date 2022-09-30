@@ -1,0 +1,189 @@
+body{
+    font: 62.5% Open Sans, Freesans, sans-serif;
+    background: #2c3338;
+}
+
+
+.login-wrapper{
+    width:525px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+.login-wrapper form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-wrapper form h1{
+    font-size:2.8em;
+    font-weight: normal;
+    letter-spacing: -1px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+body{
+    background: black;
+}
+
+.login-wrapper form h1 span{
+    font-weight: 500;
+    letter-spacing: -1px;
+
+}
+
+.login-wrapper form input{
+    border:none;
+    margin:0;
+}
+
+.login-wrapper form .input-row{
+    margin:0.5em 0;
+    overflow:hidden;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-wrapper form .icon{
+    font-size:1.4em;
+    background: rgba(255, 255, 255, 0.6);
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    padding:0.8em;
+    color: #FFFFFF;
+    float:left;
+}
+
+.login-wrapper form input[type="text"],form input[type="password"], form input[type="email"], form input[type="tel"] {
+    padding:0.8em 0.8em 0.8em 0;
+    font-size:1.4em;
+    color:#ffffff;
+    width:400px;
+    background: transparent;
+    border: 2px solid #F1CD3A;
+    border-radius: 10px;
+}
+
+.login-wrapper form input[type="text"]:focus,form input[type="password"]:focus, form input[type="email"]:focus {
+    outline:0;
+    color: #ffffff;
+}
+
+.login-wrapper form input[type="submit"]{
+    border:none;
+    background: rgba(241, 205, 58, 0.6);
+    border-radius: 15px;
+    color:#FFFFFF;
+    font-size:1.6em;
+    padding:0.7em 1.2em;
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin-top: 50px;
+}
+
+.login-wrapper form input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+.login-wrapper form .reset{
+    margin-left:1em;
+    color:#FFFFFF;
+    font-size: 1.4em;
+}
+
+.login-wrapper form .reset a{
+    color:#FFFFFF;
+}
+
+.login-wrapper form .reset a:hover{
+    text-decoration: none;
+}
+.login-wrapper input::-webkit-input-placeholder {
+    color: #ffffff;
+    opacity: 0.8%;
+    padding: 5px;
+}
+.login-wrapper .title-form{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.login-wrapper .radio-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    padding: 0.5em;
+}
+.login-wrapper form input[type="date"]{
+    padding:0.8em 0.8em 0.8em 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+    background: transparent;
+}
+
+.login-wrapper .boxs-input{
+    margin:80px auto;
+    width:525px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(29, 29, 29, 0.6);
+    border-radius: 15px;
+    padding: 65px;
+    margin: 80px;
+}
+.SingIn-Formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-wrapper input[type="file"]{
+    padding:0.8em 0.8em 0.8em 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.body-preregistro{
+    display: flex;
+    flex-direction: row;
+}
+.body-preregistro .pre-fondo{
+    background: url("../../../img/PreFondo.jpg");
+    background-position: center;
+    width: 50%;
+}
